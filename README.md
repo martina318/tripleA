@@ -21,5 +21,6 @@ to run it locally, e.g. `python3 -m http.server 8080`.
 
 ## Deploying
 
-`.github/workflows/pages.yml` publishes the repo root to GitHub Pages on every
-push to `main`.
+GitHub Pages serves the repo root from the `main` branch
+(Settings → Pages → Deploy from a branch → `main` / `(root)`), so every push
+to `main` republishes the site.
